@@ -27,7 +27,7 @@ class SearchTests(unittest.TestCase):
             .find_elements_by_xpath("//h2[@class='product-name']/a")
         self.assertEqual(3, len(products))
 
-    
+
 
     def tearDown(self):
         # close the browser window
